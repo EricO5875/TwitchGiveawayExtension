@@ -18,5 +18,66 @@ body {
 	font: 12px arial, sans-serif;
 }
 div {
+
+}
+
+h1 {
+    color: white;
+}
+
+ul.tabs {
 	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#txtNumberOfWinners {
+    width: 20px;
+}
+
+ul.tabs{
+    margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.tabs li{
+	background: none;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+	border: 0;
+    background-color:  rgba(75, 48, 123, 1.0);
+    box-shadow: none;
+    border-radius: 0px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+ul.tabs li.current{
+	background: #ededed;
+	color: #222;
+	border: 0;
+    background-color:  rgba(93, 59, 153, 1.0);
+    box-shadow: none;
+    border-radius: 0px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+.tab-content{
+	display: none;
+	padding: 15px;
+}
+
+.tab-content.current{
+	display: inherit;
+}
+
+.container {
+    border-style: solid;
 }

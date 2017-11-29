@@ -1,0 +1,138 @@
+/*!
+ *
+ * Custom CSS for entertainmentcenter.com
+ *
+ */
+
+    * {
+      font-size:16px;
+    }
+
+    body {
+      margin-top: 45px;
+      padding-top: 15px;
+      background-color:#ddc;
+    }
+
+    @media (min-width: 992px) {
+      body {
+        padding-top: 15px;
+      }
+    }
+
+   iframe {
+        border-radius:20px;
+    }
+
+    .caption {
+      margin:5%;
+      width: 90%;
+      text-align:center;
+    }
+
+    .thumbnail {
+      position:relative;
+      margin-bottom:20px;
+      margin-left:5%;
+      float:left;
+      border-style:solid;
+      border-width:1px;
+      border-color:#ccc;
+      border-radius:5px;
+      width:125px;
+      height:300px;
+    }
+
+    .rounded {
+      width:100px;
+      height:148px;
+    }
+
+    .thumb {
+      margin:5%;
+      width:90%;
+    }
+
+    .caption > p {
+      color:#000;
+    }
+
+    .card-body > h2,h6 {
+      text-align:center;
+    }
+
+    .weekend-gross {
+      position: absolute;
+      bottom: 0px;
+      left:35px;
+    }
+
+    .season {
+      position: absolute;
+      bottom: 0px;
+      left:30px;
+    }
+
+    .author {
+      position: absolute;
+      bottom: 0px;
+      left:15px;
+    }
+
+    .poster {
+        margin-left:40px;
+    }
+
+
+    .content {
+        margin-top:10px;
+    }
+
+    .bio  {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+     ul.tabs{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		ul.tabs li{
+			background: none;
+			color: #222;
+			display: inline-block;
+			padding: 10px 15px;
+			cursor: pointer;
+		}
+
+		ul.tabs li.current{
+			background: #ededed;
+			color: #222;
+		}
+
+		.tab-content{
+			display: none;
+			background: #ededed;
+			padding: 15px;
+		}
+
+		.tab-content.current{
+			display: inherit;
+		}
+
+		form#signup, form#login {
+		  padding-left: 5%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    #txtEmail, #txtUsername, #txtPassword, #txtConfirm {
+       width: 40%;
+       min-width: 300px;
+    }
+
+     input#signup, input#login {
+        width:10%;
+        min-width:80px;
+    }

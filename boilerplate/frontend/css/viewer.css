@@ -20,3 +20,33 @@ body {
 div {
 	margin: 0px;
 }
+
+#divMain {
+
+}
+
+#divStart {
+    background-color: rgba(0, 0, 0, .4);
+    border-style: double;
+	resize: both;
+	overflow: auto;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+    min-height: 100px;
+    min-width: 230px;
+}
+
+#lblMain {
+    font-size: 15px;
+}
+
+#lblNoGiveaway {
+    font-size: 13px;
+}
+
+#divUseAll {
+    display: none;
+}
+

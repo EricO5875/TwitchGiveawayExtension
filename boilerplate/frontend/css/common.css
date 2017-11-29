@@ -18,5 +18,18 @@ body {
 	font: 12px arial, sans-serif;
 }
 div {
-	margin: 0px;
+	margin-left: 0px;
+	padding: 10px;
+	text-align: left;
+}
+
+.btnTwitch {
+    border: 0;
+    background-color:  rgba(93, 59, 153, 1.0);
+    box-shadow: none;
+    border-radius: 0px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
 }

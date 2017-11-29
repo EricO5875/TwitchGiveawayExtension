@@ -13,3 +13,27 @@ or in the "license" file accompanying this file. This file is distributed on an 
   Set Javascript specific to the extension live configuration view in this file.
 
 */
+
+$(document).ready(function()
+ {
+    $('ul.tabs li').click(function()
+    {
+        var tab_id = $(this).attr('data-tab');
+
+    	$('ul.tabs li').removeClass('current');
+        $('.tab-content').removeClass('current');
+
+        $(this).addClass('current');
+        $("#"+tab_id).addClass('current');
+    });
+
+});
+
+function activateUseAll() {
+  var btn = document.getElementById("btnUseAll")
+  btn.disabled = true;
+
+  var viewerSide = window.open("viewer.html");
+  viewerside.document.getElementByID("divMain").style.display = "none";
+  viewerside.document.getElementByID("divUseAll").style.display = "block";
+}
