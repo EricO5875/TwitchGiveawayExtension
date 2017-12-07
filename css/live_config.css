@@ -1,24 +1,10 @@
-/*
-Copyright 2017 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-
-Licensed under the Apache License, Version 2.0 (the "License"). You may not use this file except in compliance with the License. A copy of the License is located at
-
-    http://aws.amazon.com/apache2.0/
-
-or in the "license" file accompanying this file. This file is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
-*/
-
-/*
-
-  Set CSS specific to the extension live configuration view in this file.
-
-*/
-
 body {
 	font: 12px arial, sans-serif;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
 }
 div {
-
+    padding: 10px;
 }
 
 h1 {
@@ -35,14 +21,8 @@ ul.tabs {
     width: 20px;
 }
 
-ul.tabs{
-    margin: 0px;
-	padding: 0px;
-	list-style: none;
-}
-
 ul.tabs li{
-	background: none;
+	background: rgba(255, 255, 255, .8);
 	display: inline-block;
 	padding: 10px 15px;
 	cursor: pointer;
@@ -75,9 +55,18 @@ ul.tabs li.current{
 }
 
 .tab-content.current{
+    background-color: rgba(0, 0, 0, .5);
 	display: inherit;
+	border-radius: 5px;
+    border-color: white;
+    border-style: outset;
+    padding-left: 2em;
 }
 
 .container {
-    border-style: solid;
+
+}
+
+#divRoll {
+	text-align: center;
 }

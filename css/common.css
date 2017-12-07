@@ -14,14 +14,15 @@ or in the "license" file accompanying this file. This file is distributed on an 
 
 */
 
-body {
-	font: 12px arial, sans-serif;
-}
-div {
-	margin-left: 0px;
-	padding: 10px;
-	text-align: left;
-}
+/*body {*/
+/*	font: 12px arial, sans-serif;*/
+/*}*/
+
+/*div {*/
+/*	margin-left: 0px;*/
+/*	padding: 10px;*/
+/*	text-align: left;*/
+/*}*/
 
 .btnTwitch {
     border: 0;

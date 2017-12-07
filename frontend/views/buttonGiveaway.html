@@ -1,0 +1,19 @@
+            <div id="divStart">
+                <label for="" id="lblMain">There is a Giveaway happening soon!</label> <br> <br>
+                <label for="" id="lblNoGiveaway">Click the button below to enter!</label><br><br>
+			    <button type="button" id="btnEnter" class="btnTwitch" value="Enter Giveaway">Enter Giveaway</button>
+            </div>
+
+            <div id="divEntered" style="display: none;">
+                <label for="" id="lblEntered">Thanks for entering!</label> <br> <br>
+                <label for="" id="lblEntered">Hang around to see if you won.</label>
+            </div>
+
+            <script>
+                $(document).on("click", function(e){
+                    if($(e.target).is("#btnEnter")){
+                        $("#divEntered").show();
+                        $("#divStart").hide();
+                    }
+                });
+            </script>

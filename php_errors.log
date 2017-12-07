@@ -1,0 +1,195 @@
+[06-Dec-2017 18:12:04 UTC] PHP Fatal error:  Call to undefined function render() in /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php on line 5
+[06-Dec-2017 18:12:04 UTC] PHP Stack trace:
+[06-Dec-2017 18:12:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php:0
+[06-Dec-2017 18:15:06 UTC] PHP Warning:  require_once(/includes/helpers.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php on line 4
+[06-Dec-2017 18:15:06 UTC] PHP Stack trace:
+[06-Dec-2017 18:15:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php:0
+[06-Dec-2017 18:15:06 UTC] PHP Fatal error:  require_once(): Failed opening required '/includes/helpers.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php on line 4
+[06-Dec-2017 18:15:06 UTC] PHP Stack trace:
+[06-Dec-2017 18:15:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php:0
+[06-Dec-2017 18:15:19 UTC] PHP Warning:  require_once(/includes/helper.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php on line 4
+[06-Dec-2017 18:15:19 UTC] PHP Stack trace:
+[06-Dec-2017 18:15:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php:0
+[06-Dec-2017 18:15:19 UTC] PHP Fatal error:  require_once(): Failed opening required '/includes/helper.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php on line 4
+[06-Dec-2017 18:15:19 UTC] PHP Stack trace:
+[06-Dec-2017 18:15:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php:0
+[06-Dec-2017 18:15:41 UTC] PHP Warning:  require_once(/includes/helper.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php on line 4
+[06-Dec-2017 18:15:41 UTC] PHP Stack trace:
+[06-Dec-2017 18:15:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php:0
+[06-Dec-2017 18:15:41 UTC] PHP Fatal error:  require_once(): Failed opening required '/includes/helper.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php on line 4
+[06-Dec-2017 18:15:41 UTC] PHP Stack trace:
+[06-Dec-2017 18:15:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php:0
+[06-Dec-2017 18:21:29 UTC] PHP Warning:  require(templates/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php on line 5
+[06-Dec-2017 18:21:29 UTC] PHP Stack trace:
+[06-Dec-2017 18:21:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php:0
+[06-Dec-2017 18:21:29 UTC] PHP Fatal error:  require(): Failed opening required 'templates/header.html' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php on line 5
+[06-Dec-2017 18:21:29 UTC] PHP Stack trace:
+[06-Dec-2017 18:21:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php:0
+[06-Dec-2017 18:22:16 UTC] PHP Warning:  require(templates/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php on line 5
+[06-Dec-2017 18:22:16 UTC] PHP Stack trace:
+[06-Dec-2017 18:22:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php:0
+[06-Dec-2017 18:22:16 UTC] PHP Fatal error:  require(): Failed opening required 'templates/header.html' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php on line 5
+[06-Dec-2017 18:22:16 UTC] PHP Stack trace:
+[06-Dec-2017 18:22:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php:0
+[06-Dec-2017 18:22:59 UTC] PHP Warning:  require(/home/ubuntu/workspace/Twitch Extension/frontendtemplates/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php on line 5
+[06-Dec-2017 18:22:59 UTC] PHP Stack trace:
+[06-Dec-2017 18:22:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php:0
+[06-Dec-2017 18:22:59 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/Twitch Extension/frontendtemplates/header.html' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php on line 5
+[06-Dec-2017 18:22:59 UTC] PHP Stack trace:
+[06-Dec-2017 18:22:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php:0
+[06-Dec-2017 18:23:14 UTC] PHP Warning:  require(/home/ubuntu/workspace/Twitch Extension/frontend/templates/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php on line 5
+[06-Dec-2017 18:23:14 UTC] PHP Stack trace:
+[06-Dec-2017 18:23:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php:0
+[06-Dec-2017 18:23:14 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/Twitch Extension/frontend/templates/header.html' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php on line 5
+[06-Dec-2017 18:23:14 UTC] PHP Stack trace:
+[06-Dec-2017 18:23:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php:0
+[06-Dec-2017 18:23:51 UTC] PHP Warning:  require(./templates/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php on line 5
+[06-Dec-2017 18:23:51 UTC] PHP Stack trace:
+[06-Dec-2017 18:23:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php:0
+[06-Dec-2017 18:23:51 UTC] PHP Fatal error:  require(): Failed opening required './templates/header.html' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php on line 5
+[06-Dec-2017 18:23:51 UTC] PHP Stack trace:
+[06-Dec-2017 18:23:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php:0
+[06-Dec-2017 18:24:13 UTC] PHP Warning:  require(/home/ubuntu/workspace/Twitch Extension/frontend/templates/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php on line 5
+[06-Dec-2017 18:24:13 UTC] PHP Stack trace:
+[06-Dec-2017 18:24:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php:0
+[06-Dec-2017 18:24:13 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/Twitch Extension/frontend/templates/header.html' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php on line 5
+[06-Dec-2017 18:24:13 UTC] PHP Stack trace:
+[06-Dec-2017 18:24:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/Twitch Extension/frontend/viewer.php:0
+[06-Dec-2017 18:24:51 UTC] PHP Warning:  require(/home/ubuntu/workspace/TwitchExtension/frontend/templates/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 5
+[06-Dec-2017 18:24:51 UTC] PHP Stack trace:
+[06-Dec-2017 18:24:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:24:51 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/TwitchExtension/frontend/templates/header.html' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 5
+[06-Dec-2017 18:24:51 UTC] PHP Stack trace:
+[06-Dec-2017 18:24:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:26:34 UTC] PHP Warning:  require(/templates/config.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 5
+[06-Dec-2017 18:26:34 UTC] PHP Stack trace:
+[06-Dec-2017 18:26:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:26:34 UTC] PHP Fatal error:  require(): Failed opening required '/templates/config.html' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 5
+[06-Dec-2017 18:26:34 UTC] PHP Stack trace:
+[06-Dec-2017 18:26:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:29:50 UTC] PHP Warning:  require(/templates/config.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 7
+[06-Dec-2017 18:29:50 UTC] PHP Stack trace:
+[06-Dec-2017 18:29:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:29:50 UTC] PHP Fatal error:  require(): Failed opening required '/templates/config.html' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 7
+[06-Dec-2017 18:29:50 UTC] PHP Stack trace:
+[06-Dec-2017 18:29:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:30:53 UTC] PHP Warning:  require(/home/ubuntu/workspace/TwitchExtension/frontend/templates/config.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 7
+[06-Dec-2017 18:30:53 UTC] PHP Stack trace:
+[06-Dec-2017 18:30:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:30:53 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/TwitchExtension/frontend/templates/config.html' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 7
+[06-Dec-2017 18:30:53 UTC] PHP Stack trace:
+[06-Dec-2017 18:30:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:31:50 UTC] PHP Warning:  require(/home/ubuntu/workspace/TwitchExtension/frontend/templates/config.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 7
+[06-Dec-2017 18:31:50 UTC] PHP Stack trace:
+[06-Dec-2017 18:31:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:31:50 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/TwitchExtension/frontend/templates/config.html' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 7
+[06-Dec-2017 18:31:50 UTC] PHP Stack trace:
+[06-Dec-2017 18:31:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:33:16 UTC] PHP Warning:  require(/home/ubuntu/workspace/TwitchExtension/frontendheader.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 7
+[06-Dec-2017 18:33:16 UTC] PHP Stack trace:
+[06-Dec-2017 18:33:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:33:16 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/TwitchExtension/frontendheader.html' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 7
+[06-Dec-2017 18:33:16 UTC] PHP Stack trace:
+[06-Dec-2017 18:33:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:33:22 UTC] PHP Warning:  require(/home/ubuntu/workspace/TwitchExtension/frontend/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 7
+[06-Dec-2017 18:33:22 UTC] PHP Stack trace:
+[06-Dec-2017 18:33:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:33:22 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/TwitchExtension/frontend/header.html' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 7
+[06-Dec-2017 18:33:22 UTC] PHP Stack trace:
+[06-Dec-2017 18:33:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:33:47 UTC] PHP Warning:  require(/home/ubuntu/workspace/TwitchExtension/frontendviews/templates/config.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 7
+[06-Dec-2017 18:33:47 UTC] PHP Stack trace:
+[06-Dec-2017 18:33:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:33:47 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/TwitchExtension/frontendviews/templates/config.html' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 7
+[06-Dec-2017 18:33:47 UTC] PHP Stack trace:
+[06-Dec-2017 18:33:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:35:39 UTC] PHP Warning:  require(/views/templates/welcome.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 7
+[06-Dec-2017 18:35:39 UTC] PHP Stack trace:
+[06-Dec-2017 18:35:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:35:39 UTC] PHP Fatal error:  require(): Failed opening required '/views/templates/welcome.html' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 7
+[06-Dec-2017 18:35:39 UTC] PHP Stack trace:
+[06-Dec-2017 18:35:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:37:08 UTC] PHP Warning:  require_once(/views/templates/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 6
+[06-Dec-2017 18:37:08 UTC] PHP Stack trace:
+[06-Dec-2017 18:37:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:37:08 UTC] PHP Fatal error:  require_once(): Failed opening required '/views/templates/header.html' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 6
+[06-Dec-2017 18:37:08 UTC] PHP Stack trace:
+[06-Dec-2017 18:37:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:37:28 UTC] PHP Warning:  require(/views/templates/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 6
+[06-Dec-2017 18:37:28 UTC] PHP Stack trace:
+[06-Dec-2017 18:37:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:37:28 UTC] PHP Fatal error:  require(): Failed opening required '/views/templates/header.html' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 6
+[06-Dec-2017 18:37:28 UTC] PHP Stack trace:
+[06-Dec-2017 18:37:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:38:39 UTC] PHP Warning:  require(/views/templates/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 7
+[06-Dec-2017 18:38:39 UTC] PHP Stack trace:
+[06-Dec-2017 18:38:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:38:39 UTC] PHP Fatal error:  require(): Failed opening required '/views/templates/header.html' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 7
+[06-Dec-2017 18:38:39 UTC] PHP Stack trace:
+[06-Dec-2017 18:38:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:39:52 UTC] PHP Warning:  include(/views/templates/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 7
+[06-Dec-2017 18:39:52 UTC] PHP Stack trace:
+[06-Dec-2017 18:39:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:39:52 UTC] PHP Warning:  include(): Failed opening '/views/templates/header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 7
+[06-Dec-2017 18:39:52 UTC] PHP Stack trace:
+[06-Dec-2017 18:39:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:39:52 UTC] PHP Warning:  include(/views/welcome.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 8
+[06-Dec-2017 18:39:52 UTC] PHP Stack trace:
+[06-Dec-2017 18:39:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:39:52 UTC] PHP Warning:  include(): Failed opening '/views/welcome.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 8
+[06-Dec-2017 18:39:52 UTC] PHP Stack trace:
+[06-Dec-2017 18:39:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:39:52 UTC] PHP Warning:  include(/views/templates/footer.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 9
+[06-Dec-2017 18:39:52 UTC] PHP Stack trace:
+[06-Dec-2017 18:39:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:39:52 UTC] PHP Warning:  include(): Failed opening '/views/templates/footer.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 9
+[06-Dec-2017 18:39:52 UTC] PHP Stack trace:
+[06-Dec-2017 18:39:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:39:53 UTC] PHP Warning:  include(/views/templates/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 7
+[06-Dec-2017 18:39:53 UTC] PHP Stack trace:
+[06-Dec-2017 18:39:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:39:53 UTC] PHP Warning:  include(): Failed opening '/views/templates/header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 7
+[06-Dec-2017 18:39:53 UTC] PHP Stack trace:
+[06-Dec-2017 18:39:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:39:53 UTC] PHP Warning:  include(/views/welcome.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 8
+[06-Dec-2017 18:39:53 UTC] PHP Stack trace:
+[06-Dec-2017 18:39:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:39:53 UTC] PHP Warning:  include(): Failed opening '/views/welcome.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 8
+[06-Dec-2017 18:39:53 UTC] PHP Stack trace:
+[06-Dec-2017 18:39:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:39:53 UTC] PHP Warning:  include(/views/templates/footer.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 9
+[06-Dec-2017 18:39:53 UTC] PHP Stack trace:
+[06-Dec-2017 18:39:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:39:53 UTC] PHP Warning:  include(): Failed opening '/views/templates/footer.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 9
+[06-Dec-2017 18:39:53 UTC] PHP Stack trace:
+[06-Dec-2017 18:39:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:39:55 UTC] PHP Warning:  include(/views/templates/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 7
+[06-Dec-2017 18:39:55 UTC] PHP Stack trace:
+[06-Dec-2017 18:39:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:39:55 UTC] PHP Warning:  include(): Failed opening '/views/templates/header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 7
+[06-Dec-2017 18:39:55 UTC] PHP Stack trace:
+[06-Dec-2017 18:39:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:39:55 UTC] PHP Warning:  include(/views/welcome.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 8
+[06-Dec-2017 18:39:55 UTC] PHP Stack trace:
+[06-Dec-2017 18:39:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:39:55 UTC] PHP Warning:  include(): Failed opening '/views/welcome.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 8
+[06-Dec-2017 18:39:55 UTC] PHP Stack trace:
+[06-Dec-2017 18:39:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:39:55 UTC] PHP Warning:  include(/views/templates/footer.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 9
+[06-Dec-2017 18:39:55 UTC] PHP Stack trace:
+[06-Dec-2017 18:39:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:39:55 UTC] PHP Warning:  include(): Failed opening '/views/templates/footer.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 9
+[06-Dec-2017 18:39:55 UTC] PHP Stack trace:
+[06-Dec-2017 18:39:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:40:46 UTC] PHP Warning:  include(/views/welcome.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 8
+[06-Dec-2017 18:40:46 UTC] PHP Stack trace:
+[06-Dec-2017 18:40:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:40:46 UTC] PHP Warning:  include(): Failed opening '/views/welcome.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 8
+[06-Dec-2017 18:40:46 UTC] PHP Stack trace:
+[06-Dec-2017 18:40:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:40:46 UTC] PHP Warning:  include(/views/templates/footer.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 9
+[06-Dec-2017 18:40:46 UTC] PHP Stack trace:
+[06-Dec-2017 18:40:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0
+[06-Dec-2017 18:40:46 UTC] PHP Warning:  include(): Failed opening '/views/templates/footer.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php on line 9
+[06-Dec-2017 18:40:46 UTC] PHP Stack trace:
+[06-Dec-2017 18:40:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/TwitchExtension/frontend/viewer.php:0

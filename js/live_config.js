@@ -28,12 +28,3 @@ $(document).ready(function()
     });
 
 });
-
-function activateUseAll() {
-  var btn = document.getElementById("btnUseAll")
-  btn.disabled = true;
-
-  var viewerSide = window.open("viewer.html");
-  viewerside.document.getElementByID("divMain").style.display = "none";
-  viewerside.document.getElementByID("divUseAll").style.display = "block";
-}
